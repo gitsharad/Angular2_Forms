@@ -8,13 +8,15 @@ import {HomeComponent} from "./home/home.component";
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ServicesComponent } from './services/services.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 const appRoutes: Routes = [
   { path: 'home', component:  HomeComponent },
   { path: 'about',component:  AboutComponent },
   { path: 'contact',component:ContactComponent },
   { path: 'career',component: CareerComponent },
-   { path: 'services',component: ServicesComponent } 
+  { path: 'services',component: ServicesComponent } 
 
 ];
 
@@ -27,7 +29,9 @@ const appRoutes: Routes = [
     ContactComponent,
     CareerComponent,
     NavigationComponent,
-    ServicesComponent
+    ServicesComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

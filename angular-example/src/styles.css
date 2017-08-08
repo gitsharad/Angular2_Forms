@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: century gothic;
+}
+.container{
+    background-color:whitesmoke;
+    min-height: 600px;
+    box-shadow: 0 0 10px lightgray;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
