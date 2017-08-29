@@ -4,13 +4,51 @@
     font-family: century gothic;
 
 }
-.container{
-    background-color:whitesmoke;
+.mycontainer{
     min-height: 600px;
     box-shadow: 0 0 10px lightgray;
     padding-left: 0 !important;
     padding-right: 0 !important;
+    background-color: #42AB9E;
+    color: white; /**/
 }
 .mypost{
-    color:green;
+    color:#eef318;
+}
+.myimg{
+    width: 150px;
+    height: 150px;
+}
+#work_exp{
+    list-style: none;
+   /* text-align: center;*/
+}
+.myskill_tbl{
+    width:50% !important;
+    margin:0 auto;
+}
+.myskill_tbl tbody tr td{
+    padding:3px !important;
+    font-size: 13px;
+}
+.portfolio_list li {
+    display: inline-block;
+    width:200px;
+}
+.boxlist {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background: rgba(251, 247, 247, 0.36);
+    min-height: 100px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.boxlist .bxtitle  {
+  text-align: center;
+  display: block;
+}
+.navbar{
+        border-radius: 0 !important;
 }

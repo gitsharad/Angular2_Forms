@@ -1,0 +1,26 @@
+[
+    {
+       "skill_name":"Html5",
+       "rate":"9"   
+    },
+     {
+       "skill_name":"CSS3",
+       "rate":"8"   
+    },
+     {
+       "skill_name":"JavaScript & jQuery",
+       "rate":"9"   
+    },
+    {
+       "skill_name":"Angular 1 & 2",
+       "rate":"7.5"   
+    },
+    {
+       "skill_name":"PHP",
+       "rate":"8"   
+    },
+    {
+       "skill_name":"Wordpress",
+       "rate":"8"   
+    }
+]

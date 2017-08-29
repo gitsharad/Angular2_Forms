@@ -1,0 +1,20 @@
+[
+    {
+      "sitename":"http://www.diamondsonholland.com/",
+      "img_path":"assets/img/portfolio_img/HAL_LOGO.png",
+      "name":"Diamonds On Holland",
+      "teamsize":"3",
+      "technology":"HTML5 , CSS3 , Bootstrap 3.4",
+      "myrole":"UI Designer",
+      "description":""
+    },
+    {
+      "sitename":"http://www.portfoliodiamonds.com/",
+      "img_path":"assets/img/portfolio_img/portfolio_diamond.png",
+      "name":"PortFolio Diamond",
+      "teamsize":"3",
+      "technology":"HTML5 , CSS3 , Bootstrap 3.4",
+      "myrole":"UI Designer",
+      "description":""
+    }    
+]

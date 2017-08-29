@@ -1,0 +1,17 @@
+  <div class="col-sm-4 text-center" id="skill_set">
+    <h3 class="">Skill Sets</h3>
+    <table class="table table-sm myskill_tbl">
+      <thead >
+        <tr >
+          <th class="text-center">Skill</th>
+          <th class="text-center">Ratings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor=" let myskill of myskills">
+          <td>{{myskill.skill_name}}</td>
+          <td>{{myskill.rate}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
