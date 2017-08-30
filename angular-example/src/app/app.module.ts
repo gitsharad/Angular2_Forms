@@ -14,6 +14,7 @@ import { SkillsetsComponent } from './Components/skillsets/skillsets.component';
 import { PortfolioComponent } from './Components/portfolio/portfolio.component'; 
 import { PortfolioService } from "./myservices/portfolio.service";
 import { EducationComponent } from './Components/education/education.component';
+import { WorkExperience } from "./myservices/workexp.service";
 
 const appRoutes: Routes = [
   { path: '', component:  HomeComponent },
@@ -41,7 +42,7 @@ const appRoutes: Routes = [
     ),
     HttpModule
   ],
-  providers: [SkillsService,PortfolioService],
+  providers: [SkillsService,PortfolioService,WorkExperience],
   bootstrap: [AppComponent]
 })
 export class AppModule { } 
