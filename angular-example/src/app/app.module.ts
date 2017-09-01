@@ -15,7 +15,8 @@ import { PortfolioComponent } from './Components/portfolio/portfolio.component';
 import { PortfolioService } from "./myservices/portfolio.service";
 import { EducationComponent } from './Components/education/education.component';
 import { WorkExperience } from "./myservices/workexp.service";
-
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import 'hammerjs';
 const appRoutes: Routes = [
   { path: '', component:  HomeComponent },
   { path: 'home', component:  HomeComponent }
@@ -40,7 +41,8 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes
     ),
-    HttpModule
+    HttpModule,
+    BrowserAnimationsModule
   ],
   providers: [SkillsService,PortfolioService,WorkExperience],
   bootstrap: [AppComponent]

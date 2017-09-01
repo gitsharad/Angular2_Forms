@@ -1,18 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 *{
     /*font-family: Comic Sans MS; */
     font-family: century gothic;
 
 }
 .mycontainer{
-   /* min-height: 600px; */
-    box-shadow: 0 0 10px lightgray;
+   /* min-height: 600px; 
+    box-shadow: 0 0 10px lightgray;*/ 
     padding-left: 0 !important;
     padding-right: 0 !important;
-    background-color: #42AB9E;
     color: white; /**/
     min-height: 810px;
-    
+    background-color: #42AB9E;
 }
 .mypost{
     color:#eef318;
@@ -50,9 +50,9 @@
     
 }
 .boxlist{
-    animation-name: boxlistbump;
+   /* animation-name: boxlistbump;
     animation-duration: 2s;
-    
+   */
 }
 .boxlist .bxtitle  {
   text-align: center; 
@@ -62,12 +62,12 @@
         border-radius: 0 !important; 
 }
 
-/* Standard syntax */
+/* Standard syntax *//*
  @keyframes boxlistbump {
     0%   {background-color: lightgray}
     50%  {background-color: gray}
 } 
-/*
+
 @keyframes boxlistbump{  
        from {bottom:0px;}
        to{bottom:10px}

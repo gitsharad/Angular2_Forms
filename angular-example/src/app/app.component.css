@@ -1,12 +1,23 @@
 .inner_container{
-        box-shadow: -1px 0px 10px #222222;
+        /* box-shadow: -1px 0px 10px #222222; */
         animation-name:moving_inner_container;
-        animation-duration: 2s; 
+        animation-duration: 4s; 
         position: relative;
+        
 }
 @keyframes moving_inner_container{
     0%  {left:-50px;top:0}
-    50% {left:-50px;top:50px}
-    75% {left:50px;top:50px}
+    25% {left:-50px;top:50px}
+    50% {left:50px;top:50px}
+    75% {left:50px;top:0px}
+    100% {left:0px;top:0px}
     
+} /**/
+
+@keyframes moving_inner_container{
+    0%  {left:-50px;top:0}
+    25% {left:-50px;top:50px}
+    50% {left:50px;top:50px}
+    75% {left:50px;top:0px}
+    100% {left:0px;top:0px}  
 }
