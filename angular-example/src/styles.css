@@ -12,9 +12,9 @@
     padding-right: 0 !important;
     color: white; /**/
     min-height: 810px;
-    background-color: #42AB9E;
+    background-color: #0b6969;
 }
-.mypost{
+.mypost {
     color:#eef318;
 }
 .myimg{
@@ -42,18 +42,14 @@
     padding-bottom: 5px;
     padding-left: 2px;
     padding-right: 2px;
-    background: rgba(251, 247, 247, 0.36);
+    background: rgb(6, 80, 80);
     min-height: 100px;
     padding: 5px;
     position: relative;
     margin-bottom: 5px;
     
 }
-.boxlist{
-   /* animation-name: boxlistbump;
-    animation-duration: 2s;
-   */
-}
+
 .boxlist .bxtitle  {
   text-align: center; 
   display: block;
@@ -61,7 +57,10 @@
 .navbar{
         border-radius: 0 !important; 
 }
-
+.rounded_box{
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
 /* Standard syntax *//*
  @keyframes boxlistbump {
     0%   {background-color: lightgray}

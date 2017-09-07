@@ -1,27 +1,14 @@
-  <div class="col-sm-4 text-center" id="skill_set">
+  <div class="col-sm-12 text-center" id="skill_set">
     <h3 class="">Skill Sets</h3>
-  <!-- <table class="table table-sm myskill_tbl">
-      <thead >
-        <tr >
-          <th class="text-center">Skill</th>
-          <th class="text-center">Ratings</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor=" let myskill of myskills">
-          <td>{{myskill.skill_name}}</td>
-          <td>{{myskill.rate}}</td>
-        </tr>
-      </tbody>
-    </table> --> 
+  
 <section class="myskill_sec" *ngFor="let myskill of myskills">
   {{myskill.skill_name}}
   <md-progress-bar
-          class="warning"
-          [color]="warm"
-          [mode]="determinate"
-          [value]="myskill.rate"
-          [bufferValue]="1">
+          class=""
+          color="warn"
+          mode="determinate"
+          [value]="myskill.rate*10"
+          >
   </md-progress-bar>
 </section>
   </div>
