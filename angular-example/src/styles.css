@@ -47,7 +47,11 @@
     padding: 5px;
     position: relative;
     margin-bottom: 5px;
+    transition: margin .35s ease-in-out;
     
+}
+.portfolio_box .boxlist:hover {
+    margin:10px;
 }
 
 .boxlist .bxtitle  {
@@ -61,6 +65,7 @@
     border-top-left-radius: 20%;
     border-top-right-radius: 20%;
 }
+
 /* Standard syntax *//*
  @keyframes boxlistbump {
     0%   {background-color: lightgray}

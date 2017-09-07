@@ -1,5 +1,6 @@
 .myskill_sec{
     margin-bottom: 5px;
+    transition:padding ease-in-out;
 }
 .mat-progress-bar{
     height: 12px;
@@ -9,4 +10,8 @@
     height: 1px;
     background-color: blue;
     margin:0 auto; 
+}
+.myskill_sec:hover {
+ padding:10px;
+ background-color:rgba(0, 0, 0, 0.44);;
 }
