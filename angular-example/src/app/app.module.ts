@@ -17,6 +17,7 @@ import { EducationComponent } from './Components/education/education.component';
 import { WorkExperience } from "./myservices/workexp.service";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import {MdProgressBarModule} from '@angular/material';
+import {MdTooltipModule} from '@angular/material';
 import 'hammerjs';
 const appRoutes: Routes = [
   { path: '', component:  HomeComponent },
@@ -34,9 +35,7 @@ const appRoutes: Routes = [
     AboutmeComponent,
     SkillsetsComponent,
     PortfolioComponent,
-    EducationComponent
-    
-   
+    EducationComponent 
   ],
   imports: [
     BrowserModule,
@@ -45,7 +44,8 @@ const appRoutes: Routes = [
     ),
     HttpModule,
     BrowserAnimationsModule,
-    MdProgressBarModule
+    MdProgressBarModule,
+    MdTooltipModule
   ],
   providers: [SkillsService,PortfolioService,WorkExperience],
   bootstrap: [AppComponent]
